@@ -37,8 +37,8 @@ botonIgual.addEventListener("click", () => {
             resultado.value = data.resultado;
         }
         else{
-            resultado.value = "Error en la operacion";
+            resultado.value = "Syntax Error";
         }
     })
-    .catch(() => resultado.value = "Error en la conexion con el API")
+    .catch(() => resultado.value = "Api Error")
 })
