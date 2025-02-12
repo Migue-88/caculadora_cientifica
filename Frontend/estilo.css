@@ -8,6 +8,7 @@
     border-radius: 10px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     font-family: 'Calculator', sans-serif;
+    text-align: left;
 }
 
 .pantalla {
@@ -28,9 +29,9 @@
 
 .teclado{
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 botones por fila */
+    grid-template-columns: repeat(3, 1fr); /* 4 botones por fila */
     gap: 10px;
-    background-color: #ffffff;
+    background-color: #cf3838;
     padding: 15px;
     border-radius: 10px;
 }
